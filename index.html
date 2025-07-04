@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ahmed</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Ismail Allouch</h1>
+        <p>Ingénieur en Logiciels & Systèmes Intelligents</p>
+        <button id="dark-mode-toggle">🌙 Mode Sombre</button>
+        <img src="IMG_2317_11zon.jpg" alt="Photo de profil d'Ismail Allouch" width="150" height="150">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>À Propos</h2>
+        <p>Je suis un étudiant ingénieur à l'ENSAM Meknès, passionné par le développement logiciel, l'IA et la data science.</p>
+        <a href="assets/cv.pdf" download class="btn">Télécharger mon CV</a>
+    </section>
+
+    <section id="education">
+        <h2>Formation</h2>
+        <ul>
+            <li><strong>2022 - Présent :</strong> Cycle Ingénieur, ENSAM Meknès</li>
+            <li><strong>2020 - 2022 :</strong> Classes Préparatoires, CPGE Meknès</li>
+            <li><strong>2019 - 2020 :</strong> Baccalauréat Scientifique, Lycée Al Khawarizmi</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>💻 Développement : Java, JavaFX, Web (HTML, CSS, JS), Mobile</li>
+            <li>📊 Data Science : Power BI, Python, Data Mining</li>
+            <li>🗣 Langues : Français, Arabe, Anglais, Turc</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="project">
+            <h3>Gestion de Parking (JavaFX)</h3>
+            <p>Une application JavaFX permettant la gestion des parkings avec interface graphique.</p>
+            <a href="https://github.com/Ismailallouch" target="_blank">Voir sur GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Site Web Tourisme</h3>
+            <p>Un site web interactif sur le tourisme au Maroc, développé en HTML, CSS et JavaScript.</p>
+            <a href="https://github.com/Ismailallouch/Web-Site-Tourisme" target="_blank">Voir sur GitHub</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-card">
+            <h2><span style="font-size:1.5em;">📧</span> Contactez-Nous</h2>
+            <form action="https://formspree.io/f/xldgnnpe" method="POST">
+                <label for="email">Votre email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Votre message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ismail Allouch - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
