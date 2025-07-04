@@ -438,6 +438,33 @@ section {
     color: var(--second-text-color);
 }
 
+.timeline-content ul {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding-left: 2.5rem;
+    list-style: disc inside;
+}
+
+.timeline-content ul li {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-bottom: 0.7rem;
+    position: relative;
+    padding-left: 0.5rem;
+    transition: color 0.3s;
+}
+
+.timeline-content ul li::marker {
+    color: var(--main-color);
+    font-size: 1.2em;
+}
+
+.timeline-content ul li:hover {
+    color: var(--main-color);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
 /* ===== Skills Section ===== */
 .skills {
     background: var(--second-bg-color);
@@ -510,6 +537,33 @@ section {
     background: var(--gradient-color);
     border-radius: 1rem;
     transition: width 1s ease-in-out;
+}
+
+.skills-box ul {
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+    padding-left: 2.2rem;
+    list-style: disc inside;
+}
+
+.skills-box ul li {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 0.5rem;
+    transition: color 0.3s;
+}
+
+.skills-box ul li::marker {
+    color: var(--main-color);
+    font-size: 1.1em;
+}
+
+.skills-box ul li:hover {
+    color: var(--main-color);
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 /* ===== Projects Section ===== */
